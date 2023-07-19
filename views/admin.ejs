@@ -1,0 +1,50 @@
+<%- include('includes/head.ejs')%>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+
+    <%- include('includes/navigation.ejs')%>
+    <main>
+        <section class="section_course">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                <h2>เข้าสู่ระบบ</h2>
+                <ol>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li>เข้าสู่ระบบ</li>
+                </ol>
+                </div>
+            </div>
+        </section>
+        <section class="section_login mx-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="forms d-flex flex-row">
+                <div class="container container_login">
+                    <div class="login_form">
+                        <div class="title text-center">เข้าสู่ระบบ</div>
+                        <div class="divider mx-auto"></div>
+                        <form action="#">
+                            <div class="input-boxes">
+                                <div class="input-box">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="text" name="email" placeholder="อีเมล" required>
+                                </div>
+                                <div class="input-box">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" name="password" placeholder="รหัสผ่าน" required>
+                                </div>
+                                <div class="button input-box">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="image">
+                        <img src="/image/KU_Logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('includes/footer.ejs')%>
+        <%- include('includes/script.ejs')%>
+</body>
+</html>

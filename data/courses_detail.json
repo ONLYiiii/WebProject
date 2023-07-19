@@ -1,0 +1,30 @@
+[
+    {
+        "id":"01418113", 
+        "subject_th": "การโปรแกรมคอมพิวเตอร์", 
+        "subject_eng": "(Computer Programming)", 
+        "credit": "3(2-2-5)",
+        "pre_study_id": "01418112",
+        "description_th": "การโปรแกรมภาษาระดับสูง ชนิด ตัวแปร ข้อความสั่งรับเข้า/ส่งออก ข้อความสั่งเงื่อนไข ข้อความสั่งวนซ้ำ ฟังก์ชัน การกำหนดสาระสำคัญเชิงกระบวนงาน การปรากฏซ้ำ การนำเข้าและส่งออกแฟ้ม โครงสร้างข้อมูลพื้นฐาน การกำหนดสาระสำคัญของข้อมูล การนิยามวัตถุและคลาส ลักษณะประจำและพฤติกรรมของวัตถุการแก้จุดบกพร่อง และการทดสอบโปรแกรม แนวทางการโปรแกรมที่ดี",
+        "description_eng": "High-level language programming. Types. Variables. Input/output statements. Conditional statements. Repetition statements. Functions. Procedural abstractions. Recursion. File input and output. Basic data structures. Data abstractions. Objects and class definitions. Object attributes and behaviors. Program debugging and testing. Good programming practice.High-level language programming. Types. Variables. Input/output statements. Conditional statements. Repetition statements. Functions. Procedural abstractions. Recursion. File input and output. Basic data structures. Data abstractions. Objects and class definitions. Object attributes and behaviors. Program debugging and testing. Good programming practice"
+    },
+    {
+        "id":"01418114", 
+        "subject_th": "วิทยาการคอมพิวเตอร์เบื้องต้น", 
+        "subject_eng": "(Introduction to Computer Science)", 
+        "credit": "2(2-0-4)",
+        "pre_study_id": "",
+        "description_th": "พัฒนาการของคอมพิวเตอร์ การแทนข้อมูลในคอมพิวเตอร์ ระบบจำนวน องค์ประกอบของฮาร์ดแวร์คอมพิวเตอร์ ตัววัดสมรรถนะของคอมพิวเตอร์ ซอฟต์แวร์ระบบ ตัวแปลภาษาและภาษาการโปรแกรม ความซับซ้อนในระบบคอมพิวเตอร์การจัดองค์การของระบบคอมพิวเตอร์สถาปัตยกรรมไคลเอนต์-เซิร์ฟเวอร์เครือข่ายคอมพิวเตอร์ ความมั่นคงของสารสนเทศ การประยุกต์ระบบคอมพิวเตอร์ในปัจจุบัน จริยธรรมทางคอมพิวเตอร์",
+        "description_eng": "Development of computers. Data representation in computers. Number systems. Computer hardware components. Computer performance metrics. System software. Compilers and programming languages. Complexity in computer systems. Computer system organization. Clientserver architecture. Computer networks. Information security. Current applications of computer systems. Computer ethics."
+    }
+    ,
+    {
+        "id":"", 
+        "subject_th": "", 
+        "subject_eng": "", 
+        "credit": "",
+        "pre_study_id": "",
+        "description_th": "",
+        "description_eng": ""
+    }
+]

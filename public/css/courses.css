@@ -1,0 +1,110 @@
+/* ---- course-list ---- b*/
+
+.table_course {
+    margin: 5rem 0;
+    font-size: 16px;
+}
+
+.table_course .table{
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.table_course .table thead tr{
+    background-color: #6C7AE0;
+    color: #fff;
+}
+
+.table_course .table th,
+.table_course .table td{
+    padding: 1em 1em 1em 2em;
+}
+
+.table_course .table thead th {
+    padding: 1.45em 1.45em 1.45em 2em;
+}
+
+.table_course .table tbody th a{
+    text-decoration: underline;
+}
+
+.table_course .table tbody tr:hover{
+    transform: scale(1.01, 1.01);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.table_course .table tbody tr:nth-child(even){
+    background-color: #f8f6ff;
+}
+
+.table_course .table tbody th a:hover{
+    font-size: 16.5px;
+    transition: 0.3s;
+}
+
+.name_id {
+    width: 10%;
+}
+
+.name_subject {
+    width: 30%; 
+}
+
+.name_credit {
+    width: 10%;
+}
+
+/* ---- course-detail ---- b*/
+
+.courses_detail {
+    padding: 40px 0;
+}
+
+.courses_detail .col-lg-7 img{
+    width: 100%;
+}
+
+.courses_detail .courses-info {
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(34, 34, 34, 0.1);
+}
+
+.courses_detail .courses-info h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.courses_detail .courses-info h4 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+}
+
+.courses_detail .courses-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.courses_detail .courses-info ul li {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.courses_detail .courses-info .description_study {
+    color: #F62F63;
+}
+
+.courses_detail .courses-info ul li:nth-child(3) {
+    margin-top: 1rem;
+}
+
+.courses_detail .courses-info ul li a {
+    text-decoration: underline;
+}

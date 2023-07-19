@@ -1,0 +1,11 @@
+.section_curriculum .tab {
+    margin-left: 6.5em;
+}
+
+.section_curriculum .container .col div {
+    padding-top: 10px;
+}
+
+.section_curriculum .container .col strong {
+    color: #F62F63;
+}

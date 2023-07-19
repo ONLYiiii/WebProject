@@ -1,0 +1,98 @@
+[
+    {
+        "id":"01418113", 
+        "subject_th": "การโปรแกรมคอมพิวเตอร์", 
+        "subject_eng": "(Computer Programming)", 
+        "credit": "3(2-2-5)"
+    },
+    {
+        "id":"01418114", 
+        "subject_th": "วิทยาการคอมพิวเตอร์เบื้องต้น", 
+        "subject_eng": "(Introduction to Computer Science)", 
+        "credit": "2(2-0-4)"
+    },
+    {
+        "id":"01418132", 
+        "subject_th": "หลักมูลการคณนา", 
+        "subject_eng": "(Fundamentals of Computing)", 
+        "credit": "4(4-0-8)"
+    },
+    {
+        "id":"01418211", 
+        "subject_th": "การสร้างซอฟต์แวร์", 
+        "subject_eng": "(Software Construction)", 
+        "credit": "3(2-2-5)"
+    },
+    {
+        "id":"01418231", 
+        "subject_th": "โครงสร้างข้อมูล", 
+        "subject_eng": "(Data Structures)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418221", 
+        "subject_th": "ระบบฐานข้อมูลเบื้องต้น", 
+        "subject_eng": "(Fundamentals of Database Systems)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418232", 
+        "subject_th": "การออกแบบและการวิเคราะห์ขั้นตอนวิธี", 
+        "subject_eng": "(Algorithm Design and Analysis)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418233", 
+        "subject_th": "ภาษาแอสเซมบลีและสถาปัตยกรรมคอมพิวเตอร์", 
+        "subject_eng": "(Assembly Language and Computer Architecture)", 
+        "credit": "4(4-0-8)"
+    },
+    {
+        "id":"01418321", 
+        "subject_th": "การวิเคราะห์และการออกแบบระบบ", 
+        "subject_eng": "(System Analysis and Design)", 
+        "credit": "3(2-2-5)"
+    },
+    {
+        "id":"01418331", 
+        "subject_th": "ระบบปฏิบัติการ", 
+        "subject_eng": "(Operating Systems)", 
+        "credit": "4(4-0-8)"
+    },
+    {
+        "id":"01418341", 
+        "subject_th": "ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ", 
+        "subject_eng": "(Intellectual Properties and Professional Ethics)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418332", 
+        "subject_th": "ความมั่นคงในระบบสารสนเทศ", 
+        "subject_eng": "(Information System Security)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418333", 
+        "subject_th": "ทฤษฎีออโตมาตา", 
+        "subject_eng": "(Automata Theory)", 
+        "credit": "2(2-0-4)"
+    },
+    {
+        "id":"01418334", 
+        "subject_th": "เทคนิคตัวแปลโปรแกรม", 
+        "subject_eng": "(Compiler Techniques)", 
+        "credit": "2(2-0-4)"
+    },
+    {
+        "id":"01418351", 
+        "subject_th": "หลักการการสื่อสารคอมพิวเตอร์และการประมวลผลบนคลาวด์", 
+        "subject_eng": "(Computer Communications and Cloud Computing Principles)", 
+        "credit": "3(3-0-6)"
+    },
+    {
+        "id":"01418442", 
+        "subject_th": "เว็บเทคโนโลยีและเว็บบริการ", 
+        "subject_eng": "(Web Technology and Web Services)", 
+        "credit": "3(2-2-5)"
+    }
+]

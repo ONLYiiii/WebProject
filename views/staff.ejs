@@ -1,0 +1,61 @@
+<%- include('includes/head.ejs')%>
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+    
+    <%- include('includes/navigation.ejs')%>
+    <main>
+        <section class="section_course">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                <h2>คณาจารย์</h2>
+                <ol>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li>คณาจารย์</li>
+                </ol>
+                </div>
+            </div>
+        </section>
+        <section class="staff section-bg">
+            <div class="container-fluid">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>คณาจารย์</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <% for (let staff of faultys) { %>
+                        <div class="member_container col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="member" data-aos="fade-up" data-aos-delay="100">
+                                <div class="member-img">
+                                    <img src="/image/waratt.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="member-info justify-content-center">
+                                    <ul class="text-start">
+                                        <li>
+                                            <h5>รหัสอาจารย์ :</h5><%= staff.id %>
+                                        </li>
+                                        <li>
+                                            <h5>ชื่อภาษาไทย :</h5><%= staff.name_th %>
+                                        </li>
+                                        <li>
+                                            <h5>ชื่อภาษาอังกฤษ :</h5><%= staff.name_eng %>
+                                        </li>
+                                        <li>
+                                            <h5>สถานที่ทำงาน :</h5><%= staff.office %>
+                                        </li>
+                                        <li>
+                                            <h5>อีเมล: </h5><%= staff.email %>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<%- include('includes/footer.ejs')%>
+<%- include('includes/script.ejs')%>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="navbar-brand">
+            <a class="<%= path === '/' ? 'active' : ''%>" href="/">
+                <img src="/image/logo.png" alt="Logo" class="img-fluid">
+                <h3>วิทยาการคอมพิวเตอร์</h3>
+            </a>
+        </div>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li>
+                    <a class="nav-link scrollto <%= path === '/' ? 'active' : ''%>" 
+                        href="/">หน้าแรก
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link scrollto <%= path === '/courses' ? 'active' : ''%>"
+                        href="/courses">รายวิชาที่เปิดสอน
+                    </a>
+                </li>
+                <li class="nav-link dropdown">
+                    <a class="nav-link" href="#">
+                        <span>บุคลากร <i class="fa-solid fa-caret-down"></i></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item <%= path === '/staff' ? 'active' : ''%>"
+                                href="/staff">คณาจารย์
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item <%= path === '/admin' ? 'active' : ''%>" 
+                                href="/admin">เฉพาะเจ้าหน้าที
+                            </a>
+                        </li>
+                    </ul> 
+                </li>
+                <li><a class="nav-link" href="#contact">ติดต่อ</a></li>
+                <%- path === '/admin' ? '<li><a class="bt_login" href="/admin/add-staff">เข้าสู่ระบบ</a></li>' : '' %>
+            </ul>
+        </nav>
+    </div>
+</header>

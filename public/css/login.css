@@ -1,0 +1,111 @@
+.section_login{
+    position: relative;
+    margin: 7rem auto;
+    max-width: 850px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+}
+.section_login .forms{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    padding: 5rem;
+    border-radius: 10px;
+}
+
+.forms .container_login{
+    display: flex;
+    width: 100%;
+    margin-right: 0rem;
+}
+
+.forms .login_form {
+    padding: 10px;
+}
+
+.forms .image {
+    display: flex;
+    margin-left: 8rem;
+    align-items: center;
+}
+
+.forms .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+.forms .divider {
+    width: 6rem;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.forms .input-boxes{
+    margin-top: 30px;
+}
+.forms .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+.forms .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.forms .input-box input:focus,
+.forms .input-box input:valid{
+    border-color: #0a6bea;
+}
+.forms .input-box i{
+    position: absolute;
+    color: #0a6bea;
+    font-size: 17px;
+}
+.forms .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+.forms .text a{
+    text-decoration: none;
+}
+.forms .text a:hover{
+    text-decoration: underline;
+}
+.forms .button{
+    color: #fff;
+    margin-top: 40px;
+}
+.forms .button input{
+    color: #fff;
+    background: #0a6bea;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.forms .button input:hover{
+    background: #5b13b9;
+}
+.forms label{
+    color: #5b13b9;
+    cursor: pointer;
+}
+.forms label:hover{
+    text-decoration: underline;
+}
+.forms .login-text,
+.forms .sign-up-text{
+    text-align: center;
+    margin-top: 25px;
+}

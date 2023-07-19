@@ -1,0 +1,47 @@
+<%- include('includes/head.ejs')%>
+  <link rel="stylesheet" href="/css/courses.css">
+</head>
+<body>
+    
+    <%- include('includes/navigation.ejs')%>
+    <main>
+      <section class="section_course">
+          <div class="container">
+              <div class="d-flex justify-content-between align-items-center">
+              <h2>รายวิชาที่เปิดสอน</h2>
+              <ol>
+                  <li><a href="/">หน้าแรก</a></li>
+                  <li>รายวิชาที่เปิดสอน</li>
+              </ol>
+              </div>
+          </div>
+      </section>
+      <section class="table_course">
+          <div class="container">
+              <table class="table table-borderless" data-aos="fade-up">
+                  <thead>
+                      <tr>
+                          <th class="name_id" scope="col">รหัสวิชา</th>
+                          <th class="name_subject" scope="col">ชื่อวิชา (ภาษาไทย)</th>
+                          <th class="name_subject" scope="col">ชื่อวิชา (ภาษาอังกฤษ)</th>
+                          <th class="name_credit" scope="col">หน่วยกิต</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                    <% for (let courses of course) { %>
+                      <tr>
+                        <th scope="row"><a href="/cs<%= courses.id %>"><%= courses.id %></a></th>
+                        <td><%= courses.subject_th %></td>
+                        <td><%= courses.subject_eng %></td>
+                        <td><%= courses.credit %></td>
+                      </tr>
+                    <% } %>
+                  </tbody> 
+              </table>
+          </div>
+      </section>
+  </main>
+    <%- include('includes/footer.ejs')%>
+    <%- include('includes/script.ejs')%>
+</body>
+</html>

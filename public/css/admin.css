@@ -1,0 +1,146 @@
+/* ---- staff ---- */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #f7fbfe;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+}
+
+.section-title h2::before {
+    margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+    margin: 0 0 10px 15px;
+}
+
+.section-title p {
+    margin: 15px 0 0 0;
+}
+
+.staff .row .member_container {
+    width: 25rem;
+    margin-right: 2rem;
+}
+
+.staff .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.staff .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.staff .member .member-info {
+    padding: 25px 10px 25px 1.2em;
+}
+
+.staff .member .member-info ul{
+    padding-left: 1.2em;
+}
+
+.staff .member .member-info ul li{
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+.staff .member .member-info h5{
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #2d88c4;
+}
+
+.staff .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+/* ---- add staff ---- */
+
+.section_addstaff .col_left {
+    width: 40rem;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+.card  .card-body {
+    padding: 0 20px 20px 20px;
+}
+
+.card  .card-body .divider{
+    padding: 0;
+    width: 80%;
+    border-top: 3px solid #eee;
+}
+
+.card .card-body .card-title {
+    margin-bottom: 0.3em;
+    padding: 15px 0 25px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #012970;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .card-body .card-title span {
+    color: #899bbd;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card .card-body .col-12:nth-child(1) {
+    margin-top: 0.5em;
+    padding-top: 1em;
+}
+
+.card .card-body .form-control{
+    height: 3rem;
+}
+
+.card .card-body .input-group-text{
+    background-color: #eee;
+}
+
+.card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+}
